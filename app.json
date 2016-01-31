@@ -1,0 +1,6 @@
+{
+  "name": "Trustpilot BSDeveloper Test Hosting",
+  "description": "Springboot + Maven + Heroku.",
+  "repository": "https://github.com/amaendeepm/tptest",
+  "image": "heroku/java",
+}
