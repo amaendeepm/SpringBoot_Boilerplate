@@ -21,7 +21,7 @@ public class AmandeepController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Please provide Morpheus' Ship Name in the format -> http://<<host>>:8080/ship/<<morpheusShipName>>";
+		return "Please provide Morpheus' Ship Name in the URL format -> http://[host]/ship/[morpheusShipName]";
 	}
 
 	@RequestMapping(value = "/ship/{name}")
